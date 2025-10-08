@@ -3,12 +3,16 @@ import Banner from '../Components/Banner';
 import useApps from '../Hooks/useApps';
 import AppCard from '../Components/AppCard';
 import { NavLink } from 'react-router';
+import Loading from './Loading';
 
 const Home = () => {
 
-    const { apps } = useApps()
+    const { loading, apps } = useApps()
     // console.log(apps)
     const featureApps = apps.slice(0, 8)
+    if (loading) {
+        return <Loading></Loading>
+    }
 
     return (
         <div >

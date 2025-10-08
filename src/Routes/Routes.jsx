@@ -3,6 +3,7 @@ import MainLayouts from "../Layouts/MainLayouts";
 import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 import AllApps from "../Pages/AllApps";
+import AppDetails from "../Components/AppDetails";
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
             {
                 path: '/apps',
                 Component: AllApps,
+            },
+            {
+                path:"/apps/:id",
+                Component: AppDetails,
             },
         ]
     }
