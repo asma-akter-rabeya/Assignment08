@@ -1,12 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import useApps from '../Hooks/useApps';
 import AppCard from '../Components/AppCard';
 import Loading from './Loading';
+import AppNotFound from './AppNotFound';
+
 
 
 const AllApps = () => {
     const { loading, apps } = useApps();
     const [search, setSearch] = useState('')
+    const [isTyping, setIsTyping] = useState(false);
+
+
+    useEffect(() => {
+        if (!search) return;
+        setIsTyping(true);
+        const timer = setTimeout(() => setIsTyping(false), 200);
+        return () => clearTimeout(timer);
+    }, [search]);
+
+
 
     if (loading) {
         return <Loading></Loading>
@@ -32,11 +45,15 @@ const AllApps = () => {
                 </div>
             </div>
             <div className='w-11/12 mt-5 mx-auto grid grid-cols-2 lg:grid-cols-4 gap-5 bg-gray-50 p-6'>
-                {
-                    searchedApp.length > 0 ? (
+                 {
+                    isTyping ? (
+                        <div className='col-span-full flex justify-center items-center'>
+                            <Loading />
+                        </div>
+                    ) : searchedApp.length > 0 ? (
                         searchedApp.map(app => <AppCard key={app.id} app={app} />)
                     ) : (
-                        <p className='col-span-full text-center text-gray-500 text-lg'>No apps found 😔</p>
+                        <AppNotFound />
                     )
                 }
 

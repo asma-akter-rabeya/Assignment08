@@ -3,6 +3,8 @@ import { Outlet, useNavigation } from 'react-router';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import Loading from '../Pages/Loading';
+import { ToastContainer } from 'react-toastify';
+
 
 const MainLayouts = () => {
     const navigation = useNavigation();
@@ -17,6 +19,15 @@ const MainLayouts = () => {
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
+            <ToastContainer
+                position="top-right"
+                autoClose={2500}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                pauseOnHover
+                theme="colored"
+            />
 
         </div>
     );
