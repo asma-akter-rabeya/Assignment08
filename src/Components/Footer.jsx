@@ -1,4 +1,8 @@
 import React from 'react';
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 const Footer = () => {
     return (
@@ -9,49 +13,50 @@ const Footer = () => {
 
                     <div className='lg:w-[25%]'>
                         <h3 className="text-white font-semibold mb-2">
-                            CS — Ticket System
+                            Hero IO — Explore, Compare & Download Apps Smarter
                         </h3>
                         <p className="text-sm">
-                            This project is a React-based Customer Support Zone <br className="hidden sm:block" />
-                            designed to display customer tickets, track progress, <br className="hidden sm:block" />
-                            and mark them as resolved. It follows a Figma design and <br className="hidden sm:block" />
-                            includes additional features like status management,<br className="hidden sm:block" />
-                            responsiveness, and toast notifications using React-Toastify
+                            Hero IO — Explore, Compare & Download Apps Smarter
+                            Hero IO is your go-to destination for discovering the most popular and trending apps around the world.
+                            We bring together detailed app insights, authentic reviews, and user ratings — all in one clean interface.
+                            From productivity tools to social platforms, Hero IO helps you choose the best apps for your lifestyle.
                         </p>
                     </div>
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:w-[75%]">
 
                         <div>
-                            <h4 className="text-white font-semibold mb-2">University</h4>
+                            <h4 className="text-white font-semibold mb-2">Explore</h4>
                             <ul className="space-y-2 text-sm">
-                                <li>About Us</li>
-                                <li>Our Mission</li>
-                                <li>Contact Sale</li>
+                                <li>Top Free Apps</li>
+                                <li>Trending Now</li>
+                                <li>Editor's Choice</li>
+                                <li>New Releases</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-white font-semibold mb-2">Services</h4>
+                            <h4 className="text-white font-semibold mb-2">Company</h4>
                             <ul className="space-y-2 text-sm">
-                                <li>Product & Services</li>
-                                <li>Customer Services</li>
-                                <li>Download Apps</li>
+                                <li>About Hero IO</li>
+                                <li>Careers</li>
+                                <li>Contact Us</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-white font-semibold mb-2">Information</h4>
+                            <h4 className="text-white font-semibold mb-2">Legal</h4>
                             <ul className="space-y-2 text-sm">
                                 <li>Privacy Policy</li>
                                 <li>Terms & Conditions</li>
-                                <li>Join Us</li>
+                                <li>Cookies Settings</li>
                             </ul>
                         </div>
                         <div>
-                            <h4 className="text-white font-semibold mb-2">Social Links</h4>
+                            <h4 className="text-white font-semibold mb-2">Follow Us</h4>
                             <ul className="space-y-2 text-sm">
-                                <li className='flex gap-2'> <span>@CS — Ticket System</span></li>
-                                <li className='flex gap-2'><span>@CS — Ticket System</span></li>
-                                <li className='flex gap-2'><span>@CS — Ticket System</span></li>
-                                <li className='flex gap-2'><span>support@cst.com</span></li>
+                                <li className='flex gap-2 items-center'><BsTwitterX /><a href="">@HeroIO</a> </li>
+                                <li className='flex gap-2 items-center'><FaInstagramSquare /><a href="">@HeroIO_Official</a> </li>
+                                <li className='flex gap-2 items-center'><FaYoutube /><a href="">HeroIO Channel</a> </li>
+                                <li className='flex gap-2 items-center'><MdOutlineMail /><a href="">support@heroio.com</a> </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -60,8 +65,7 @@ const Footer = () => {
 
 
                 <div className=" text-center text-gray-500  mt-6">
-                    © 2025 CS -- Ticket System
-                    <br className="block md:hidden" /> All rights reserved.
+                    © 2025 Hero IO. All rights reserved.
                 </div>
             </footer>
 

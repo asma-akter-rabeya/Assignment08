@@ -24,25 +24,26 @@ const Banner = () => {
 
             <div className='max-w-screen'>
                 <img className='mx-auto w-[393px] ' src={bnrImg} alt="" />
-                <section class="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] mt-0 text-white">
-                    <div class="py-6 lg:py-[50px] px-3 lg:px-[135px] text-center  space-y-[40px]">
-                        <h1 class="font-bold text-3xl">Trusted by Millions, Built for You</h1>
-                        <div class="grid lg:grid-cols-3 gap-3 lg:gap-[50px]">
-                            <div class="rounded-[25px] space-y-3 text-white">
-                                <p class="text-sm  ">Total Downloads</p>
-                                <p class="text-xl lg:text-4xl  font-bold">29.6M</p>
-                                <p class="text-sm  ">21% more than last month</p>
+                <section className="bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] mt-0 text-white">
+                    <div className="py-3 lg:py-[50px] px-3 lg:px-[135px] text-center  space-y-[40px]">
+                        <h1 className="font-bold text-3xl">Trusted by Millions, Built for You</h1>
+                        <div className="grid lg:grid-cols-3 gap-3 lg:gap-[50px]">
+                            <div className="rounded-[25px] space-y-2 text-white">
+                                <p className="text-sm  ">Total Downloads</p>
+                                <p className="text-xl lg:text-4xl  font-bold">29.6M</p>
+                                <p className="text-sm  ">21% more than last month</p>
                             </div>
-                            <div class="rounded-[25px] space-y-3">
-                                <p class="text-sm  text-gray-600">Total Reviews</p>
-                                <p class="text-xl lg:text-3xl text-green-700 font-bold"><span>120</span>K+</p>
-                                <p class="text-sm  text-gray-600">Communities Involved</p>
+                            <div className="rounded-[25px] space-y-3 text-white">
+                                <p className="text-sm  ">Total Downloads</p>
+                                <p className="text-xl lg:text-4xl  font-bold">906K</p>
+                                <p className="text-sm  ">46% more than last month</p>
                             </div>
-                            <div class="rounded-[25px] space-y-3">
-                                <p class="text-sm  text-gray-600">Active Apps</p>
-                                <p class="text-xl lg:text-3xl text-green-700 font-bold"><span>30</span>K+</p>
-                                <p class="text-sm  text-gray-600">Countries Reached</p>
+                            <div className="rounded-[25px] space-y-3 text-white">
+                                <p className="text-sm  ">Active Apps</p>
+                                <p className="text-xl lg:text-4xl  font-bold">132+</p>
+                                <p className="text-sm  ">31 more will Launch</p>
                             </div>
+                            
 
                         </div>
                     </div>

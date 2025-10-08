@@ -14,9 +14,27 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li> <NavLink to={'/'}>Home</NavLink> </li>
-                        <li> <NavLink to={'/apps'}>Apps</NavLink> </li>
-                        <li> <NavLink to={'/install'}>Installation</NavLink> </li>
+                        <li> <NavLink
+                            to="/"
+                            className={({ isActive }) =>
+                                isActive
+                                    ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                                    : "hover:text-violet-500"
+                            }
+                        >
+                            Home
+                        </NavLink>
+                        </li>
+                        <li> <NavLink to={'/apps'} className={({ isActive }) =>
+                            isActive
+                                ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                                : "hover:text-violet-500"
+                        }> Apps</NavLink> </li>
+                        <li> <NavLink to={'/install'} className={({ isActive }) =>
+                            isActive
+                                ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                                : "hover:text-violet-500"
+                        }> Installation</NavLink> </li>
                     </ul>
                 </div>
                 <div className='flex items-center'>
@@ -27,9 +45,21 @@ const Navbar = () => {
 
             <div className="navbar-center ">
                 <ul className="menu menu-horizontal px-1 hidden lg:flex">
-                    <li> <NavLink to={'/'}> Home</NavLink> </li>
-                    <li> <NavLink to={'/apps'}>Apps</NavLink> </li>
-                    <li> <NavLink to={'/install'}>Installation</NavLink> </li>
+                    <li> <NavLink to={'/'} className={({ isActive }) =>
+                        isActive
+                            ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                            : "hover:text-violet-500"
+                    }> Home</NavLink> </li>
+                    <li> <NavLink to={'/apps'} className={({ isActive }) =>
+                        isActive
+                            ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                            : "hover:text-violet-500"
+                    }> Apps</NavLink> </li>
+                    <li> <NavLink to={'/install'} className={({ isActive }) =>
+                        isActive
+                            ? "text-violet-600 font-semibold border-b-2 border-violet-600"
+                            : "hover:text-violet-500"
+                    }> Installation</NavLink> </li>
                 </ul>
             </div>
             <div className='navbar-end md:mr-6'>
