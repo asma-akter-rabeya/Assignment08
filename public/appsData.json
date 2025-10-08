@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 1,
+    "description": "WhatsApp Messenger lets you send text messages, voice notes, photos, and videos instantly. It also supports group chats, voice calls, and video calls with end-to-end encryption to keep your conversations private.",
+    "size": 120,
+    "reviews": 56000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2300000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 39000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Instagram allows users to share photos, stories, and short videos with followers. Explore trending content, shop from brands, and connect with creators worldwide — all from a single app designed for creativity.",
+    "size": 180,
+    "reviews": 48000000,
+    "ratingAvg": 4.4,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1300000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 11000000 },
+      { "name": "5 star", "count": 37000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "YouTube is the world’s largest video-sharing platform, offering everything from music and gaming to news and educational content. Users can subscribe to channels, comment, like, and share videos easily.",
+    "size": 150,
+    "reviews": 120000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 16000000 },
+      { "name": "5 star", "count": 90000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/TikTok_logo.svg",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 4,
+    "description": "TikTok brings short-form video entertainment to your fingertips. Create and watch fun, creative clips with trending music and effects. Perfect for sharing talents, challenges, and daily moments.",
+    "size": 200,
+    "reviews": 45000000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 32000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Facebook_icon_2013.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 5,
+    "description": "Facebook helps people connect with friends and family, share photos, and join communities. Stay updated with posts, watch live videos, and explore marketplace listings for your local area.",
+    "size": 250,
+    "reviews": 88000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 63000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Spotify_logo_with_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 6,
+    "description": "Spotify lets you stream millions of songs, albums, and podcasts for free. Discover new music through personalized playlists and enjoy high-quality streaming on any device.",
+    "size": 110,
+    "reviews": 32000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Netflix_2015_logo.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 7,
+    "description": "Netflix offers a massive library of movies, TV shows, and original series. Stream anytime, anywhere — no ads, no interruptions, just entertainment tailored to your preferences.",
+    "size": 170,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Gmail_icon_%282020%29.svg",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Gmail provides a clean and efficient way to manage emails. With strong spam protection, integration with Google Workspace, and powerful search, it’s the most reliable email service worldwide.",
+    "size": 90,
+    "reviews": 30000000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Maps_icon_%282020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 9,
+    "description": "Google Maps provides real-time navigation, traffic updates, and local business information. Explore the world with satellite imagery, street view, and location sharing with friends.",
+    "size": 130,
+    "reviews": 21000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 16000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 10,
+    "description": "X, formerly known as Twitter, allows users to post short messages, follow trending topics, and connect globally. It’s the hub for real-time news, memes, and conversations that shape culture.",
+    "size": 140,
+    "reviews": 15000000,
+    "ratingAvg": 4.0,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Zoom_Communications_Logo.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 11,
+    "description": "Zoom makes online meetings, webinars, and video calls easy. With features like screen sharing, recording, and breakout rooms, it’s essential for remote work and virtual learning.",
+    "size": 100,
+    "reviews": 18000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/LinkedIn_logo_initials.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 12,
+    "description": "LinkedIn connects professionals worldwide, helping users find jobs, network, and grow their careers. It’s also a powerful platform for sharing insights and building a personal brand.",
+    "size": 160,
+    "reviews": 12000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  }
+]

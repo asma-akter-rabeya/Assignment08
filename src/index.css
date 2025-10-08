@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/*  text : bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] bg-clip-text text-transparent */
+/*  bg : bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] */
