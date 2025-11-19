@@ -55,5 +55,24 @@ Designed using:
 
 ---
 
-## 📂 Project Structure
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/hero.io.git
+cd hero.io
+npm install
+npm run dev
+npm run build
+
+```
+
+---
+## 🔗 Live Demo
+
+👉 https://your-live-site-url.com
+---
+
 
